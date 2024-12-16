@@ -1,0 +1,120 @@
+/* Api3.css */
+
+.characters-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #8e44ad, #3498db);
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .characters-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .characters-loading {
+    font-size: 1.5rem;
+    color: #eee;
+  }
+  
+  .characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  
+  .character-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .character-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .character-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .character-card:hover .character-image {
+    transform: scale(1.05);
+  }
+  
+  .character-name {
+    font-size: 1.5rem;
+    color: #f1c40f;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .character-house {
+    font-size: 1.1rem;
+    color: #ecf0f1;
+    margin-bottom: 5px;
+  }
+  
+  .character-actor {
+    font-size: 1rem;
+    color: #bdc3c7;
+  }
+  .api3-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-title {
+    margin: 20px 0;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .characters-grid,
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .character-card,
+  .book-card {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  .character-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .loading-text {
+    font-size: 1.2em;
+    color: #888;
+    text-align: center;
+  }
+.book-cover{
+  width: 200px;
+}
+.book-description{
+  color: #333;
+}
+.book-title{
+  color: black;
+}
